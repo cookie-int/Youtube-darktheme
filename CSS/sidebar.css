@@ -1,0 +1,36 @@
+.side-bar-container{
+    display: flex;
+     background-color: #0f0f0f;
+     top:0;
+     left:0;
+     width:fit-content;
+     height: 1000px;
+     margin-top: 56px;
+     position: fixed;
+     flex-direction: column;
+     align-items: center;
+     row-gap: 0px;
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: #0f0f0f;
+  }
+
+  .icon-img {
+    border-radius: 13px;
+  }
+
+  .icon-img:hover {
+    background-color: #212121;
+  }
+
+  .icon-img:active {
+    background-color: #3d3d3d;
+  }
